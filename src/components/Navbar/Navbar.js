@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import { Button } from '../Button/Button';
 import './Navbar.css'
-
-//testing new default branch
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -37,15 +36,20 @@ function Navbar() {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
+                        </li>
+                        <li>
                             <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                                 Projects
                             </Link>
-                            <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>
+                        </li>
+                        <li>
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>CONTACT</Button>}
+                    {/* {button && <Button buttonStyle='btn--outline'>CONTACT</Button>} */}
+                    
                 </div>
             </nav>
         </>
