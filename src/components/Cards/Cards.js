@@ -9,42 +9,43 @@ function Cards() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
                 <CardItem
-                    src='images/img-9.jpg'
-                    text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                    label='Adventure'
-                    path='/'
+                    src='images/sponWeekend.png'
+                    text='Spontaneous Weekend is a collaborative application that provides random movies and restaurants for the user, taking away the stress of indecision. 
+                    It utilizes MySQL, User Authentication, Express, API...etc'
+                    label='Team Project'
+                    href='https://github.com/cyrusjose/Spontaneous-Weekend-2.0'
                 />
                 <CardItem
-                    src='images/img-2.jpg'
-                    text='Travel through the Islands of Bali in a Private Cruise'
-                    label='Luxury'
-                    path='/'
+                    src='images/fitnessTracker.png'
+                    text='Fitness Tracker tracks daily workouts and workout details such as name, type, weight, sets, reps, distance, and duration.'
+                    label='mongoDB'
+                    href='https://github.com/katean004/fitness-tracker'
                 />
                 <CardItem
-                    src='images/img-8.jpg'
-                    text='Ride through the Sahara Desert on a guided camel tour'
-                    label='Adrenaline'
-                    path='/'
+                    src='images/empTracker.png'
+                    text='Employee Tracker is a Content Management System that helps employers to manage (add, view, and update) employee information.'
+                    label='MySQL'
+                    href='https://github.com/katean004/employee-tracker'
                 />
             </ul>
             <ul className='cards__items'>
                 <CardItem
-                    src='images/img-3.jpg'
-                    text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                    label='Mystery'
-                    path='/'
+                    src='images/weatherDash.png'
+                    text='Weather Dashboard displays weather information and the 5 Day Forecast based on searcged location.'
+                    label='Weather API'
+                    href='https://github.com/katean004/weather-dashboard'
                 />
                 <CardItem
-                    src='images/img-4.jpg'
-                    text='Experience Football on Top of the Himilayan Mountains'
-                    label='Adventure'
-                    path='/'
+                    src='images/Planner.png'
+                    text='Workday Planner is a calendar application that allows the user to save events for each hour of the day.'
+                    label='Local Storage & Moment'
+                    href='https://github.com/katean004/work-day-planner'
                 />
                 <CardItem
-                    src='images/img-8.jpg'
-                    text='Ride through the Sahara Desert on a guided camel tour'
-                    label='Adrenaline'
-                    path='/'
+                    src='images/budgetTracker.png'
+                    text='Budget Tracker tracks user deposits and spendings. Offline functionality using Indexeddb and PWA.'
+                    label='IndexedDB'
+                    href='https://github.com/katean004/budget-tracker'
                 />
             </ul>
           </div>
