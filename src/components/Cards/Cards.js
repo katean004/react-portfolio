@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import React from 'react';
 import CardItem from '../Carditem/CardItem';
 import './Cards.css';
