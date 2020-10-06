@@ -1,6 +1,6 @@
 # react-portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-Application: https://katean004.github.io/react-portfolio/
+Application: katereactportfolio.netlify.app
 ![](https://i.gyazo.com/ceff27efe29da90550fb375ecf0282a5.png)
 
 ## Table of Contents
